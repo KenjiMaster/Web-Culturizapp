@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --colorUno: #0E1A32;
+    --colorDos: #0F224A;
+    --colorElace: white;
+    --colorTitulos: bisque;
+}
+
+body{
+   background-color: var(--colorUno); 
+   display: flex;
+   flex-direction: column;
+   font-family: "Poppins",sans-serif;
+   
+}
+
+nav{
+    background-color: var(--colorDos);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 64px;
+    margin: auto;
+    align-items: center;
+    position:fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+.logo{
+    width: 69px;
+    height: 60px;
+    margin-left: 10%;
+}
+
+.enlaces{
+    align-items: center;
+    margin-left: 15%;
+}
+
+a{
+    margin: 20px;
+    text-decoration: none;
+    color: var(--colorElace);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    
+}
+
+a:hover{
+    border: 2px solid white;
+    border-radius: 35px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+
+.intro{
+    background-color: var(--colorDos);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88%;
+    height: 836px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.video{
+    height: 80%;
+    width: 90%;
+    border: white 10px solid;
+}
+
+main{
+    background-color: var(--colorDos);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.uno{
+    background-image: url(./—Pngtree—plant\ shadow\ with\ green\ wallpaper_1259492.png);
+    width: 100%;
+    height: 324px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.uno img{
+    height: 200px;
+    width: 200px;
+    margin-right: 100px;
+}
+.uno div{
+    width: 400px;
+    color: var(--colorElace);
+    margin-right: 60px;
+}
+.uno div h2{
+    color: var(--colorTitulos);
+}
+
+.dos{
+    background-image: url(./protruding-squares.svg);
+    width: 100%;
+    height: 832px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.app{
+    z-index: -1;
+}
+.contenedor-frame{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.dos h2{
+    width: 300px;
+    font-size: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-left: 80px;
+    background-color: beige;
+    padding: 30px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: black 10px solid;
+}
+.content article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.appStore{
+    width: 300px;
+    height: 200px;
+}
+.playStore{
+    width: 300px;
+    height: 200px;
+    margin-left: -75px;
+}
+
+.tres{
+    width: 100%;
+    height: 550px;
+
+}
+.tres div{
+    width: 25%;
+    position: relative;
+    bottom: 80%;
+    left: 10%;
+    font-size: 25px;
+    color: white;
+}
+.tres div h2{
+    color: var(--colorTitulos);
+    margin-bottom: 20px;
+}
+.img3-1{
+    background-repeat: no-repeat;
+    margin-right: 9%;
+    width: 50%;
+    height: 100%;
+    
+}
+.img3-2{
+    width: 34%;
+    height: 90%;
+    margin: auto;
+}
+
+
+.cuatro{
+    background-image: url(./subtle-prism.svg);
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cuatro img{
+    border-radius: 10px;
+    border: black 10px solid;
+    width: 600px;
+    height: 500px;
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+.cuatro img:hover{
+    transform: scale(1.2);
+}
+
+.cinco{
+    background-image: url(https://lh3.googleusercontent.com/sscJ3XNJlmo_mIF_E_aSXgoVbhj5JNTrZHSuDM6EUAXr-9TWUyVf11zBMpMaABjQbWPVyFbKWCHHmKzEQZIK06HFlrnjNbH7US8xRA8Z5_voXn0=e365-w1920);
+    
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cinco article{
+    background-color: beige;
+    width: 420px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.cinco article h2{
+    margin-bottom: 20px;
+}
+.cinco div{
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+}
+.cinco div h2{
+    color: var(--colorTitulos);
+    margin-bottom: 20px;
+}
+.cinco div ul{
+    margin-left: 40px;
+}
+
+.seis{
+    background-image: url(./fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.seis div{
+   width: 400px; 
+   margin-left: 10px;
+   font-size: 18px;
+}
+.seis div h2{
+    color: var(--colorTitulos);
+    margin-bottom: 20px;
+}
+.seis article{
+    background-color: beige;
+    width: 420px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-right: 40px;
+    font-size: 18px;
+
+}
+.seis article h2{
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    width: 88%;
+    height: 150px;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: 10px;
+}
